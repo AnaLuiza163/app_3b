@@ -1,66 +1,66 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Sistema de Gestão de Escritório Contabeis 
 
-## About Laravel
+O sistema visa melhorar a organização e a produtividade dentro de escritórios contábeis e centralizando as informações dos clientes em um único lugar.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### 🔍 Funcionalidades
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+| Módulo       | Funcionalidade                        |
+|--------------|---------------------------------------|
+| **Login**    | Autenticação de usuário               |
+| **Fiscal**   | Geração de relatórios fiscais         |
+| **Financeiro** | Controle de movimentações financeiras |
+| **Contábil** | Emissão de relatórios contábeis       |
+| **Dashboard**| Visualização de dados consolidados    |
+| **API**      | Comunicação entre front-end e módulos |
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📌 Funcionalidades
 
-## Learning Laravel
+- **Login com autenticação de usuários**  
+  O sistema conta com uma tela de login onde apenas usuários autorizados conseguem acessar os módulos internos.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Módulo Fiscal**  
+  Responsável pelo controle e geração de relatórios fiscais, como impostos e tributos. Os dados inseridos aqui alimentam outras partes do sistema.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Módulo Financeiro**  
+  Permite o gerenciamento das movimentações financeiras do escritório, incluindo receitas, despesas e fluxo de caixa.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Módulo Contábil**  
+  Reúne as informações fiscais e financeiras para gerar relatórios contábeis automáticos. É a parte responsável por consolidar os dados para tomada de decisão.
 
-## Laravel Sponsors
+- **Dashboard Integrada**  
+  Após o login, o contador tem acesso a uma dashboard que exibe, de forma visual (com gráficos e dados), tudo que foi processado pelos módulos Fiscal, Financeiro e Contábil.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **API de Integração**  
+  A API é responsável por conectar os módulos ao front-end, garantindo que os dados sejam enviados, recebidos e atualizados corretamente na dashboard.
 
-### Premium Partners
+- **Interface simples e funcional**  
+  Todo o sistema foi planejado com foco na praticidade, com uma navegação intuitiva, visual organizado e ícones que representam os setores.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+![logo](logo.png)
 
-## Contributing
+## Autores
+- Heitor Miranda - Gestor
+- Ariel Parente - Gestor
+- Ana Luiza - Back-end
+- Gabriel - Front-end
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Stack Utlizado 
 
-## Code of Conduct
+- **HTML** – Estrutura das páginas do sistema  
+- **CSS** – Estilização da interface  
+- **JavaScript** – Lógica de autenticação e navegação entre módulos  
+- **PHP** – Back-end para autenticação e armazenamento de dados  
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Apredizando
+Durante o desenvolvimento do projeto, aprendemos:
+- A importância da separação de código (HTML, CSS e JS)
 
-## Security Vulnerabilities
+- Como estruturar sistemas baseados em módulos
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Lógica de autenticação e autorização
 
-## License
+- Representação visual de dados com gráficos
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Trabalho em equipe e organização de projeto no GitHub
+
