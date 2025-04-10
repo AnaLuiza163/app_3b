@@ -3,6 +3,8 @@
 
 O sistema visa melhorar a organização e a produtividade dentro de escritórios contábeis e centralizando as informações dos clientes em um único lugar.
 
+![logo](logo.png)
+
 ### 🔍 Funcionalidades
 
 | Módulo       | Funcionalidade                        |
@@ -37,7 +39,6 @@ O sistema visa melhorar a organização e a produtividade dentro de escritórios
 - **Interface simples e funcional**  
   Todo o sistema foi planejado com foco na praticidade, com uma navegação intuitiva, visual organizado e ícones que representam os setores.
 
-![logo](logo.png)
 
 ## Autores
 - Heitor Miranda - Gestor
